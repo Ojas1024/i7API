@@ -2,9 +2,9 @@
 
 ## Official GitHub repository of I7Apps
 
-###Contents
+### Contents<br>
 TBLA: Tree Branch Leaf Architecture
-> Windows Binary
+> Windows Binary<br>
 > Linux Binary (Yet to be published :/)
 
 
