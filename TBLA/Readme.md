@@ -56,8 +56,16 @@ myTree = Tree("Treename", "TreePassword", user.login()) # or user.signup()
 > will create a tree in your account with Treename and TreePassword as Treename and password.<br>
 Think of it as a **database name** and **database password**
 
+3. For Tree authentication (with ```user.load()``` method)
+```python
+from tbla import Authenticate, Tree
+user = Authenticate ()
+myTree = Tree("Treename", "TreePassword", user.load("filepath/filename.extension"))
+# user.load() loads the file that was saved using user.save()
+```
 ## Rules:
-1. You can plant infinite trees in your garden.
-2. Each Tree is, in total, capable of holding 26000 leaves+branches+sub-branches.
-3. Each leaf is capable of holding not more than 9 MB data.
-4. Each tree is capable of holding a maximum of 256 GB data.
+1. You can plant **infinite trees** in your garden. 
+2. Each Tree is, in total, capable of holding **29200 (leaves+branches+sub-branches).**
+3. Each leaf is capable of holding **a maximum of 9 MB data.**
+4. Each tree is capable of holding **a maximum of 256 GB data.**
+5. This architecture is **free for everyone** 😉
