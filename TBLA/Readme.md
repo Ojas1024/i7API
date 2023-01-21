@@ -29,7 +29,11 @@ user.login() # For login old users
 user.signup() # For new user creation
 
 myTree = Tree("Treename", "TreePassword", user.login()) # or user.signup()
+myTree.add_branch("YourBranchName") # This adds branch in your tree.
+# You can add n branches in your tree
 
+#Nested Branch or Sub-Branch
+myTree.branch("YourBranchName").add_branch("Another_Branch") # You can add n sub-branches in your branch as well 
 
 ```
 
@@ -46,4 +50,4 @@ myTree = Tree("Treename", "TreePassword", user.login()) # or user.signup()
 > will create a tree in your account with Treename and TreePassword as Treename and password.<br>
 Think of it as a **database name** and **database password**
 
-3.
+3. For 
