@@ -19,9 +19,9 @@
 ## Implementation
 1. For user login or signup 
 ```python
-from tbla import Authenticate
+from tbla import Authentication
 
-user = Authenticate("youremail@example.com", "yourpassword")
+user = Authentication("youremail@example.com", "yourpassword")
 user.login() # For login old users
 user.signup() # For new user creation
 
@@ -32,8 +32,8 @@ user.save("filepath/filename.extension")
 2. For Tree Branch and Leaf Creation
 (While login/signup)
 ```python
-from tbla import Authenticate, Tree
-user = Authenticate("youremail@example.com", "yourpassword")
+from tbla import Authentication, Tree
+user = Authentication("youremail@example.com", "yourpassword")
 user.login() # For login old users
 user.signup() # For new user creation
 
@@ -71,8 +71,8 @@ Think of it as a **database name** and **database password**
 
 3. For Tree authentication (with ```user.load()``` method)
 ```python
-from tbla import Authenticate, Tree
-user = Authenticate ()
+from tbla import Authentication, Tree
+user = Authentication()
 myTree = Tree("Treename", "TreePassword", user.load("filepath/filename.extension"))
 # user.load() loads the file that was saved using user.save()
 ```
