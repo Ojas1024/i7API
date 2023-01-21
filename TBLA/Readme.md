@@ -37,10 +37,14 @@ myTree.branch("YourBranchName").add_branch("Another_Branch") # You can add n sub
 
 
 #Leaf Creation
-myTree.branch("Branch1").branch("Branch2").branch("Branch_n").leaf("LeafName).push("Some data that is to be kept in the leaf")
+myTree.branch("Branch1").branch("Branch2").branch("Branch_n").leaf("LeafName").push("Some data that is to be kept in the leaf")
 
 #Leaf is the smallest entity that is capable of holding data
 #NOTE: You can't add leaf or branch inside a leaf
+
+
+#To get data from the leaf, Use leaf().get() method.
+data_in_leaf = myTree.branch("Branch1").branch("Branch2").branch("Branch_n").leaf("LeafName").get()
 ```
 
 
