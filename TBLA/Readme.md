@@ -1,5 +1,5 @@
 # Tree Branch Leaf Architecture
-🌲 🌿
+🌲 🍀
 
 ## Installation
 1. Download the Windows or Linux Binaries as per your operating system<br>
