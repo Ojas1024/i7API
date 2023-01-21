@@ -7,6 +7,6 @@
 TBLA: Tree Branch Leaf Architecture<br>
 
 > 1. Windows Binary<br>
-> 2. Linux Binary (Yet to be published :/)
+> 2. Linux Binary
 
 
