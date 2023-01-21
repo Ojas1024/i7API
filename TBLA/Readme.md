@@ -34,7 +34,16 @@ myTree = Tree("Treename", "TreePassword", user.login()) # or user.signup()
 ```
 
 
->This line ```myTree = Tree("Treename", "TreePassword", user.login()) # or user.signup()```
-will create a tree in your account with Treename and TreePassword as Treename and password.<br>
+> This line<br>
+
+
+```python
+myTree = Tree("Treename", "TreePassword", user.login()) # or user.signup()
+```
+
+
+
+> will create a tree in your account with Treename and TreePassword as Treename and password.<br>
 Think of it as a **database name** and **database password**
 
+3.
