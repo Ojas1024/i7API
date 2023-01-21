@@ -67,6 +67,45 @@ user = Authenticate ()
 myTree = Tree("Treename", "TreePassword", user.load("filepath/filename.extension"))
 # user.load() loads the file that was saved using user.save()
 ```
+
+4. To remove a branch or leaf
+
+```python
+# Say, you want to remove a branch named "To Remove"
+# Then, use the following code
+myTree.branch("Branch1").branch("Branch2").branch("To Remove") 
+# Navigate to "To delete" branch
+myTree.remove_branch() # Removes the last branch i.e. "To Remove"
+
+#To remove leaf with name "LeafName"
+myTree.branch("Branch-n").leaf("LeafName").remove()
+```
+
+**Important Note**
+> In order to remove any branch, first remove any other Sub-Branch and Leaf
+
+5. To filter only branch or leaf inside any branch
+
+```python
+print(myTree.branch("Branch1").branch("Branch2").branch("Branch-n").get_branches_only()) # shows only branches
+
+
+print(myTree.branch("Branch1").branch("Branch2").branch("Branch-n").get_leaves_only()) # shows only leaves
+
+
+```
+
+6. To get all the content inside the branch:
+
+```python
+myTree.branch("branch").getall()
+```
+
+7. To go back to root of the tree, 
+
+```python
+myTree.goto_root()
+```
 ## Rules:
 1. You can plant **infinite trees** in your garden. 
 2. Each Tree is, in total, capable of holding **29200 (leaves+branches+sub-branches).**
