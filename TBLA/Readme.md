@@ -112,3 +112,11 @@ myTree.goto_root()
 3. Each leaf is capable of holding **a maximum of 9 MB data.**
 4. Each tree is capable of holding **a maximum of 256 GB data.**
 5. This architecture is **free for everyone** 😉
+
+## Features
+1. It's easy to learn... isn't?
+2. Low latency
+3. 5 layers of security and encryption
+4. Lesser dependencies
+5. Reduced size 
+6. It's free 😀
