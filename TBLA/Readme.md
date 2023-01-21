@@ -35,6 +35,12 @@ myTree.add_branch("YourBranchName") # This adds branch in your tree.
 #Nested Branch or Sub-Branch
 myTree.branch("YourBranchName").add_branch("Another_Branch") # You can add n sub-branches in your branch as well 
 
+
+#Leaf Creation
+myTree.branch("Branch1").branch("Branch2").branch("Branch_n").leaf("LeafName).push("Some data that is to be kept in the leaf")
+
+#Leaf is the smallest entity that is capable of holding data
+#NOTE: You can't add leaf or branch inside a leaf
 ```
 
 
@@ -50,4 +56,8 @@ myTree = Tree("Treename", "TreePassword", user.login()) # or user.signup()
 > will create a tree in your account with Treename and TreePassword as Treename and password.<br>
 Think of it as a **database name** and **database password**
 
-3. For 
+## Rules:
+1. You can plant infinite trees in your garden.
+2. Each Tree is, in total, capable of holding 26000 leaves+branches+sub-branches.
+3. Each leaf is capable of holding not more than 9 MB data.
+4. Each tree is capable of holding a maximum of 256 GB data.
