@@ -122,3 +122,6 @@ myTree.goto_root()
 4. Each tree is capable of holding **a maximum of 256 GB data.**
 5. This architecture is **free for everyone** 😉
 
+**NOTE: THIS LIBRARY IS IN ALPHA PHASE**
+ALTHOUGH IT IS UNLIKELY TO HAPPEN,
+BUT YOU MAY EXPERIENCE DATA LOSSES AND ACCOUNT BANS
