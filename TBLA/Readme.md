@@ -118,9 +118,9 @@ myTree.goto_root()
 ```
 ## Rules:
 1. You can plant **infinite trees** in your garden. 
-2. Each Tree is, in total, capable of holding **29200 (leaves+branches+sub-branches+Mysql Databases).**
+2. Each Tree is, in total, capable of holding **29200 (leaves+branches+sub-branches+MySQL Databases).**
 3. Each leaf is capable of holding **a maximum of 170 KB data.**
-4. Each tree is capable of holding **a maximum of 5 GB data.**
+4. Each tree is capable of holding **a maximum of 5 GB data.** (Excluding MySQL database)
 5. Each MySQL database is capable of holding a database of **maximum of 250 MB** (Which is enough for testing)
 6. This architecture is **free for everyone** 😉
 
