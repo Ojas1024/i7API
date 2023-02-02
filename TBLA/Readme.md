@@ -118,8 +118,8 @@ myTree.goto_root()
 ## Rules:
 1. You can plant **infinite trees** in your garden. 
 2. Each Tree is, in total, capable of holding **29200 (leaves+branches+sub-branches).**
-3. Each leaf is capable of holding **a maximum of 9 MB data.**
-4. Each tree is capable of holding **a maximum of 256 GB data.**
+3. Each leaf is capable of holding **a maximum of 170 KB data.**
+4. Each tree is capable of holding **a maximum of 5 GB data.**
 5. This architecture is **free for everyone** 😉
 
 **NOTE: THIS LIBRARY IS IN ALPHA PHASE**
