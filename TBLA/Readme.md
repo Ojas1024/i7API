@@ -124,6 +124,8 @@ myTree.goto_root()
 5. Each MySQL database is capable of holding a database of **maximum of 250 MB** (Which is enough for testing)
 6. This architecture is **free for everyone** 😉
 
-**NOTE: THIS LIBRARY IS IN ALPHA PHASE**
+**NOTE: THIS LIBRARY IS IN ALPHA PHASE::**
+
+<br>
 ALTHOUGH IT IS UNLIKELY TO HAPPEN,
 BUT YOU MAY EXPERIENCE DATA LOSSES AND ACCOUNT BANS
