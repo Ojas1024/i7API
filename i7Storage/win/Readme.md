@@ -7,6 +7,7 @@
 4. Maximum upload file size is 1.5 GB
 5. Can be started with command line arguments
 6. 7 levels of encryption and security 
+
 ## Installation
 1. Download the zip file
 2. Extract the zip file
@@ -24,4 +25,10 @@ Use JSON POST request APIs to make the requests.
 
 ## Limitations
 1. This is under Alpha phase, so you may encounter errors
-2. Your feedback is very essential for 
+2. Your feedback is very essential for its development
+
+## Functions
+1. Authentication
+2. Uploading file
+3. Downloading file
+4. Removing file
