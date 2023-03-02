@@ -9,4 +9,8 @@ TBLA: Tree Branch Leaf Architecture<br>
 > 1. Windows Binary<br>
 > 2. Linux Binary
 
+i7Storage: <br>
+
+> 1. Windows Binary<br>
+> 2. Linux Binary (To be added)
 
