@@ -22,7 +22,7 @@ i7storage.exe -i <host address> -p <port>
 ## Usage:
 
 Use JSON POST request APIs to make the requests.
-
+For documentation, go to /documentation end point 
 ## Limitations
 1. This is under Alpha phase, so you may encounter errors
 2. Your feedback is very essential for its development
