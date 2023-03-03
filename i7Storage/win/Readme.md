@@ -2,11 +2,12 @@
 
 ## Features
 1. Easy to use
-2. Can be used in any language
+2. Can be used via any programming language
 3. Help and documentation available
 4. Maximum upload file size is 1.5 GB
 5. Can be started with command line arguments
 6. 7 levels of encryption and security 
+7. Unlimited Storage for free 😍
 
 ## Installation
 1. Download the zip file
