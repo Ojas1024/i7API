@@ -26,7 +26,7 @@ For documentation, go to /documentation end point
 3. Downloading file
 4. Removing file
 
-## Examples:
+## Examples
 > 1. Node Js
 
 First install **request-promise** using 
