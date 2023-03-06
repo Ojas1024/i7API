@@ -39,28 +39,17 @@ First install **request-promise** using
 var request = require('request-promise');
   
 async function download() {
-  
-    // This variable contains the data
-    // you want to send 
     let data = JSON.stringify({type: "download", api_key: "<YOUR API KEY>", api_password: '<YOUR API PASSWORD>', file_id: "<YOUR FILE ID>"});
 
   
     var options = {
         method: 'POST',
-  
-        // http:flaskserverurl:port/route
         uri: 'http://127.0.0.1:2707/nodejs',
         body: data,
-  
-        // Automatically stringifies
-        // the body to JSON 
         json: true
     };
   
     var sendrequest = await request(options)
-  
-        // The parsedBody contains the data
-        // sent back from the Flask server 
         .then(function (parsedBody) {
             console.log(parsedBody);
             let result;
