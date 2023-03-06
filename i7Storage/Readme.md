@@ -20,3 +20,6 @@ This means, you can upload and download **unlimited files for free**.
 > We hope to soon release linux releases.
 
 Till then, Stay tuned
+
+### For further discussion, you're requested to ping me at:
+https://github.com/Ojas1024/i7API/discussions/categories/i7storageengine
