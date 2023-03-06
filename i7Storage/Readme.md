@@ -16,6 +16,7 @@ This means, you can upload and download **unlimited files for free**.
 
 ## Download
 > Currently, Only windows binaries are availabe.
+
 > We hope to soon release linux releases.
 
 Till then, Stay tuned
