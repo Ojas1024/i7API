@@ -37,7 +37,7 @@ For documentation, go to /documentation end point
 ## Examples:
 > 1. Node Js
 
-First install ```request-promise``` using 
+First install **request-promise** using 
 
 ```npm install request-promise```
 
@@ -81,4 +81,20 @@ async function download() {
 }
   
 download();
+```
+
+> 2. Python
+
+Install **requests** using
+```pip install requests```
+
+Then:
+
+```python
+import requests
+json_data = {"type": "download", "api_key": "<YOUR API KEY>", "api_password": "<YOUR API PASSWORD>", "file_id": "<YOUR FILE ID>"}
+request = requests.post("http://127.0.0.1:2707/", json=json_data)
+
+
+print(r.json())
 ```
