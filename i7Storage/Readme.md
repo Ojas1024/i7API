@@ -1,6 +1,6 @@
 # i7Storage
 ## What is it?
-i7Storage or i7StorageEngine is a storage engine which provides you a service of uploading and downloading files to and from i7Servers.<br>
+**i7Storage or i7StorageEngine** is a _Storage Engine_ which provides you a service of uploading and downloading files from i7Servers.<br>
 These servers are free-to-use and unlimited in nature.<br>
 This means, you can upload and download **unlimited files for free**.
 
