@@ -33,3 +33,52 @@ For documentation, go to /documentation end point
 2. Uploading file
 3. Downloading file
 4. Removing file
+
+## Examples:
+> 1. Node Js
+
+First install ```request-promise``` using 
+
+```npm install request-promise```
+
+```node
+
+
+var request = require('request-promise');
+  
+async function download() {
+  
+    // This variable contains the data
+    // you want to send 
+    let data = JSON.stringify({type: "download", api_key: "<YOUR API KEY>", api_password: '<YOUR API PASSWORD>', file_id: "<YOUR FILE ID>"});
+
+  
+    var options = {
+        method: 'POST',
+  
+        // http:flaskserverurl:port/route
+        uri: 'http://127.0.0.1:2707/nodejs',
+        body: data,
+  
+        // Automatically stringifies
+        // the body to JSON 
+        json: true
+    };
+  
+    var sendrequest = await request(options)
+  
+        // The parsedBody contains the data
+        // sent back from the Flask server 
+        .then(function (parsedBody) {
+            console.log(parsedBody);
+            let result;
+            result = parsedBody['base64'];
+            console.log("data ", result);
+        })
+        .catch(function (err) {
+            console.log(err);
+        });
+}
+  
+download();
+```
