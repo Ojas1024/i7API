@@ -147,8 +147,24 @@ import requests
 r = requests.post("http://localhost:2707/", json={"type":"signup", "username": "your email", "password": "your password"})
 ```
 
+> 3. Upload
 
-> 3. Download
+```python
+import requests
+import base64
+f = open("<SOME FILE>", "rb")
+data = f.read()
+f.close()
+data_b64 = b64.b64encode(data).decode()
+r = requests.post("http://localhost:2707/", json={"type": "upload", "api_key": "<YOUR API KEY>", 'api_password': '<YOUR API PASSWORD>', "file_name": "<FILENAME.EXTENSION>", "bytes": data_b64})
+
+file_id = r.json()["file_id"] 
+# To download the file, file_id is required
+    
+
+```
+
+> 4. Download
 
 ```python
 import requests
