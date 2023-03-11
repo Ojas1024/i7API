@@ -30,13 +30,19 @@ For documentation, go to /documentation end point
 
 ### Node Js
 
+Install **request-promise** using 
+
+```npm install request-promise```
+
+Then,
+
 > 1. Sign in
 ```node
 
 var request = require('request-promise');
   
 async function signin() {
-    let data = JSON.stringify({type: "signin", username: "hg18131@gmail.com", password: "P1l1bh1t@99"});
+    let data = JSON.stringify({type: "signin", username: "{your email}", password: "{your password}"});
   
     var options = {
         method: 'POST',
@@ -65,7 +71,7 @@ signin();
 var request = require('request-promise');
   
 async function signup() {
-    let data = JSON.stringify({type: "signup", username: "hg18131@gmail.com", password: "P1l1bh1t@99"});
+    let data = JSON.stringify({type: "signup", username: "{your email}", password: "{your password}"});
   
     var options = {
         method: 'POST',
@@ -87,10 +93,6 @@ signup();
 ```
 
 > 3. Download
-
-First install **request-promise** using 
-
-```npm install request-promise```
 
 ```node
 
@@ -126,12 +128,18 @@ download();
 
 
 ### Python
-> 1. Download
-
 Install **requests** using
 ```pip install requests```
 
 Then:
+
+> 1. Sign in
+
+```python
+import requests
+r = requests.post("http://localhost:2707/", json={"type":"signin", "username": "hg18131@gmail.com", "password": "P1l1bh1t@99"})
+```
+> 3. Download
 
 ```python
 import requests
