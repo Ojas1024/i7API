@@ -95,7 +95,7 @@ signup();
 
 > 3. Upload
 
-```nodejs
+```node
 
 const fs = require('fs');
 var request = require('request-promise');
