@@ -42,7 +42,7 @@ Then,
 var request = require('request-promise');
   
 async function signin() {
-    let data = JSON.stringify({type: "signin", username: "{your email}", password: "{your password}"});
+    let data = JSON.stringify({type: "signin", username: "your email", password: "your password"});
   
     var options = {
         method: 'POST',
@@ -71,7 +71,7 @@ signin();
 var request = require('request-promise');
   
 async function signup() {
-    let data = JSON.stringify({type: "signup", username: "{your email}", password: "{your password}"});
+    let data = JSON.stringify({type: "signup", username: "your email", password: "your password"});
   
     var options = {
         method: 'POST',
@@ -137,7 +137,7 @@ Then:
 
 ```python
 import requests
-r = requests.post("http://localhost:2707/", json={"type":"signin", "username": "{your email}", "password": "{your password}"})
+r = requests.post("http://localhost:2707/", json={"type":"signin", "username": "your email", "password": "your password"})
 ```
 > 3. Download
 
