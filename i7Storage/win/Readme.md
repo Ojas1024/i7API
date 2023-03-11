@@ -137,7 +137,7 @@ Then:
 
 ```python
 import requests
-r = requests.post("http://localhost:2707/", json={"type":"signin", "username": "hg18131@gmail.com", "password": "P1l1bh1t@99"})
+r = requests.post("http://localhost:2707/", json={"type":"signin", "username": "{your email}", "password": "{your password}"})
 ```
 > 3. Download
 
