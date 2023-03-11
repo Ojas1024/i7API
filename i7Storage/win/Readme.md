@@ -94,7 +94,37 @@ signup();
 ```
 
 > 3. Upload
-(__toBeUpdatedSoon__)
+
+```nodejs
+const fs = require('fs');
+var request = require('request-promise');
+
+const b64_bytes = fs.readFileSync("<PATH TO FILE>", {encoding: 'base64'});
+
+async function upload() {
+    let data = JSON.stringify({type: "upload", api_key: "<YOUR API KEY>", api_password: '<YOUR API PASSWORD>', bytes: b64_bytes, file_name: "<FILENAME.EXTENSION>"});
+    var options = {
+        method: 'POST',
+        uri: 'http://127.0.0.1:2707/nodejs',
+        body: data,
+        json: true
+    };
+  
+    var sendrequest = await request(options)
+        .then(function (parsedBody) {
+            console.log(parsedBody);
+            let result;
+            file_id = parsedBody['file_id'];
+            console.log("File ID is ", file_id);
+        })
+        .catch(function (err) {
+            console.log(err);
+        });
+}
+  
+download();
+
+```
 
 
 > 4. Download
@@ -120,7 +150,7 @@ async function download() {
             console.log(parsedBody);
             let result;
             result = parsedBody['base64'];
-            console.log("data ", result);
+            console.log("Base64 Data: ", result);
         })
         .catch(function (err) {
             console.log(err);
