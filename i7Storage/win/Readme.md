@@ -28,8 +28,8 @@ For documentation, go to /documentation end point
 
 ## Examples
 
-### Download
-> 1. Node Js
+### Node Js
+> 1. Download
 
 First install **request-promise** using 
 
@@ -66,7 +66,8 @@ async function download() {
 download();
 ```
 
-> 2. Python
+### Python
+> 1. Download
 
 Install **requests** using
 ```pip install requests```
