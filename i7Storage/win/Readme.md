@@ -57,6 +57,35 @@ async function signin() {
 signin();
 ```
 
+> 2. Sign up
+
+```node
+
+
+var request = require('request-promise');
+  
+async function signup() {
+    let data = JSON.stringify({type: "signup", username: "hg18131@gmail.com", password: "P1l1bh1t@99"});
+  
+    var options = {
+        method: 'POST',
+        uri: 'http://127.0.0.1:2707/nodejs',
+        body: data,
+        json: true
+    };
+  
+    var sendrequest = await request(options)
+        .then(function (parsedBody) {
+            console.log(parsedBody);
+        })
+        .catch(function (err) {
+            console.log(err);
+        });
+}
+  
+signup();
+```
+
 > 3. Download
 
 First install **request-promise** using 
