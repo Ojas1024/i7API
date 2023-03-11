@@ -20,14 +20,14 @@ For documentation, go to /documentation end point
 1. This is under Alpha phase, so you may encounter errors
 2. Your feedback is very essential for its development
 
-## Functions
+## Functions:
 1. Authentication
 2. Uploading file
 3. Downloading file
 4. Removing file
 5. Getting File_IDs of the uploaded file
 
-## Examples
+## Examples:
 
 ### Node Js
 
