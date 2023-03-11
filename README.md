@@ -11,5 +11,5 @@ i7StorageEngine: <br>
 > 2. Linux Binary (To be added)
 
 
-© Copyright i7Apps
+© Copyright **i7Apps**
 2023
