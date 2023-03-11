@@ -243,7 +243,7 @@ import base64
 f = open("<SOME FILE>", "rb")
 data = f.read()
 f.close()
-data_b64 = b64.b64encode(data).decode()
+data_b64 = base64.b64encode(data).decode()
 r = requests.post("http://localhost:2707/", json={"type": "upload", "api_key": "<YOUR API KEY>", 'api_password': '<YOUR API PASSWORD>', "file_name": "<FILENAME.EXTENSION>", "bytes": data_b64})
 
 file_id = r.json()["file_id"] 
