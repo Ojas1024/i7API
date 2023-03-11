@@ -25,6 +25,7 @@ For documentation, go to /documentation end point
 2. Uploading file
 3. Downloading file
 4. Removing file
+5. Getting File_IDs of the uploaded file
 
 ## Examples
 
@@ -92,7 +93,11 @@ async function signup() {
 signup();
 ```
 
-> 3. Download
+> 3. Upload
+(__toBeUpdatedSoon__)
+
+
+> 4. Download
 
 ```node
 
@@ -124,7 +129,59 @@ async function download() {
   
 download();
 ```
+> 5. Delete a file
 
+```node
+var request = require('request-promise');
+  
+async function delete() {
+    let data = JSON.stringify({type: "delete", api_key: "<YOUR API KEY>", api_password: "<YOUR API PASSWORD>", file_id: "<YOUR FILE ID>"});
+  
+    var options = {
+        method: 'POST',
+        uri: 'http://127.0.0.1:2707/nodejs',
+        body: data,
+        json: true
+    };
+  
+    var sendrequest = await request(options)
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (err) {
+            console.log(err);
+        });
+}
+  
+delete();
+```
+
+> 6. Get All File Ids:
+
+```node
+var request = require('request-promise');
+  
+async function getfileid() {
+    let data = JSON.stringify({type: "getfileid", api_key: "<YOUR API KEY>", api_password: "<YOUR API PASSWORD>"});
+  
+    var options = {
+        method: 'POST',
+        uri: 'http://127.0.0.1:2707/nodejs',
+        body: data,
+        json: true
+    };
+  
+    var sendrequest = await request(options)
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (err) {
+            console.log(err);
+        });
+}
+  
+getfileid();
+```
 
 
 ### Python
