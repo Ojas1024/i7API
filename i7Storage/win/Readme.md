@@ -139,6 +139,15 @@ Then:
 import requests
 r = requests.post("http://localhost:2707/", json={"type":"signin", "username": "your email", "password": "your password"})
 ```
+
+> 2. Sign Up
+
+```python
+import requests
+r = requests.post("http://localhost:2707/", json={"type":"signup", "username": "your email", "password": "your password"})
+```
+
+
 > 3. Download
 
 ```python
