@@ -187,7 +187,7 @@ async function delete() {
 delete();
 ```
 
-> 6. Get All File Ids:
+> 6. Get All file_ids:
 
 ```node
 var request = require('request-promise');
