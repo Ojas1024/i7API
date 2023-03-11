@@ -276,7 +276,7 @@ print(request.json())
 
 ```python
 import requests
-json_data = {"type": "getallid", "api_key": "<YOUR API KEY>", "api_password": "<YOUR API PASSWORD>", "file_id": "<YOUR FILE ID>"}
+json_data = {"type": "getallid", "api_key": "<YOUR API KEY>", "api_password": "<YOUR API PASSWORD>"}
 request = requests.post("http://127.0.0.1:2707/", json=json_data)
 print(request.json())
 ```
