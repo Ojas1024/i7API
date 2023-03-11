@@ -114,7 +114,7 @@ async function upload() {
     var sendrequest = await request(options)
         .then(function (parsedBody) {
             console.log(parsedBody);
-            let result;
+            let file_id;
             file_id = parsedBody['file_id'];
             console.log("File ID is ", file_id);
         })
