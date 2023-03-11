@@ -1,4 +1,4 @@
-# Windows Binaries for i7Storage
+# Windows Binaries for i7StorageEngine
 
 
 ## Installation
