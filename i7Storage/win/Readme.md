@@ -174,3 +174,21 @@ request = requests.post("http://127.0.0.1:2707/", json=json_data)
 
 print(r.json()['base64'])
 ```
+
+> 5. Delete a file
+
+```python
+import requests
+json_data = {"type": "delete", "api_key": "<YOUR API KEY>", "api_password": "<YOUR API PASSWORD>", "file_id": "<YOUR FILE ID>"}
+request = requests.post("http://127.0.0.1:2707/", json=json_data)
+print(request.json())
+```
+
+> 6. Get all file_ids
+
+```python
+import requests
+json_data = {"type": "getallid", "api_key": "<YOUR API KEY>", "api_password": "<YOUR API PASSWORD>", "file_id": "<YOUR FILE ID>"}
+request = requests.post("http://127.0.0.1:2707/", json=json_data)
+print(request.json())
+```
