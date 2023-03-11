@@ -6,8 +6,8 @@
   Improved performances and bug fixes.
   
 ## [1.0.1] - 2023-03-06
-  Documentation update
+  Documentation update.
 
 ## [1.0.0] - 2023-02-28
-  First release of **i7StorageEngine**
+  First release of **i7StorageEngine**.
   
