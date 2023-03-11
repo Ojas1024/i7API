@@ -12,7 +12,7 @@ This means, you can upload and download **unlimited files for free**.
 5. Can be started with command line arguments
 6. 7 levels of encryption and security 
 7. Fast download and upload speed
-8. Unlimited Storage for free 😍
+8. **Unlimited Storage for free 😍**
 
 ## Download
 > Currently, Only Windows binaries are availabe.
