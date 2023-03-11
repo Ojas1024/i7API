@@ -34,7 +34,7 @@ Install **request-promise** using
 
 ```npm install request-promise```
 
-Then,
+Then:
 
 > 1. Sign in
 ```node
