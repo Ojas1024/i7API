@@ -29,7 +29,35 @@ For documentation, go to /documentation end point
 ## Examples
 
 ### Node Js
-> 1. Download
+
+> 1. Sign in
+```node
+
+var request = require('request-promise');
+  
+async function signin() {
+    let data = JSON.stringify({type: "signin", username: "hg18131@gmail.com", password: "P1l1bh1t@99"});
+  
+    var options = {
+        method: 'POST',
+        uri: 'http://127.0.0.1:2707/nodejs',
+        body: data,
+        json: true
+    };
+  
+    var sendrequest = await request(options)
+        .then(function (parsedBody) {
+            console.log(parsedBody);
+        })
+        .catch(function (err) {
+            console.log(err);
+        });
+}
+  
+signin();
+```
+
+> 3. Download
 
 First install **request-promise** using 
 
@@ -65,6 +93,8 @@ async function download() {
   
 download();
 ```
+
+
 
 ### Python
 > 1. Download
