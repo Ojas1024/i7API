@@ -10,3 +10,6 @@ i7StorageEngine: <br>
 > 1. Windows Binary<br>
 > 2. Linux Binary (To be added)
 
+
+© Copyright i7Apps
+2023
