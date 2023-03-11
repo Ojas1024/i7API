@@ -5,7 +5,7 @@
 ### Contents
 <br>
 
-i7Storage: <br>
+i7StorageEngine: <br>
 
 > 1. Windows Binary<br>
 > 2. Linux Binary (To be added)
