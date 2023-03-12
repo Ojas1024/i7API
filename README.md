@@ -7,8 +7,8 @@
 
 i7StorageEngine: <br>
 
-> 1. Windows Binary<br>
-> 2. Linux Binary (To be added)
+> 1. Windows Binaries<br>
+> 2. Linux Binaries
 
 
 © Copyright **i7Apps**
