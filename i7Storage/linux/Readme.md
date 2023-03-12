@@ -8,7 +8,7 @@
 
 ```
 
-./i7storage.exe -i <host address> -p <port>
+./i7storage -i <host address> -p <port>
 
 ```
 
