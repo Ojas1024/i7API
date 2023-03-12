@@ -260,7 +260,7 @@ json_data = {"type": "download", "api_key": "<YOUR API KEY>", "api_password": "<
 request = requests.post("http://127.0.0.1:2707/", json=json_data)
 
 
-print(r.json()['base64'])
+print(request.json()['base64'])
 ```
 
 > 5. Delete a file
