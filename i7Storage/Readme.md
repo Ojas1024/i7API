@@ -15,11 +15,9 @@ This means, you can upload and download **unlimited files for free**.
 8. **Unlimited Storage for free 😍**
 
 ## Download
-> Currently, Only Windows binaries are availabe.
+> Windows and Linux binaries supported
 
-> We hope to soon release linux releases.
-
-Till then, Stay tuned
+For further updates, **Star** ⭐ this repo to get the latest updates.
 
 ### For further discussion, you're requested to ping me at:
 https://github.com/Ojas1024/i7API/discussions/categories/i7storageengine
