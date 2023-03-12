@@ -261,6 +261,18 @@ request = requests.post("http://127.0.0.1:2707/", json=json_data)
 
 
 print(request.json()['base64'])
+
+
+# To make it into a meaningful file;
+import base64
+
+file_name = request.json()['file_name']
+
+f = open(file_name, "wb")
+data_bytes = base64.b64decode(requests.json()['base64'])
+f.write(data_bytes)
+f.close()
+
 ```
 
 > 5. Delete a file
